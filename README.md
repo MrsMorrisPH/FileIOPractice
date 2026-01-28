@@ -1,8 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/_PPYcOQN)
-
 # Scanner Practice Project
 
-This project is for Mr. Hare’s APCS-A and focuses on using `java.util.Scanner` for file I/O, parsing, and simple aggregation. You will implement methods in `ScannerPractice.java` and verify them with unit tests.
+This assignment focuses on using `java.util.Scanner` for file I/O, parsing, and simple aggregation. You will implement methods in `ScannerPractice.java` and verify them with unit tests.
 
 ## Project Structure
 
@@ -11,25 +9,17 @@ This project is for Mr. Hare’s APCS-A and focuses on using `java.util.Scanner`
 - `pom.xml` — Maven configuration for building and running tests.
 - Test data files may be referenced by tests; if provided, they will be placed in `src/test/resources/`.
 
-## Prerequisites
-
-- Java 17 (or compatible)
-- Maven 3.x
-- An IDE (IntelliJ/Eclipse) or GitHub Desktop for cloning
 
 ## Getting Started
 
 1. Accept the assignment using the link in Google Classroom.
-2. Clone the repository locally (GitHub Desktop recommended).
+2. Clone the repository locally (GitHub Desktop recommended) or open a codespace.
 3. Open the project in your IDE.
 
 ### Running Tests
 
 - From the IDE: run `ScannerPracticeTest`.
-- From the terminal:
-  ```bash
-  mvn -q test
-  ```
+
 
 ## Methods to Implement (in `ScannerPractice.java`)
 
@@ -74,10 +64,6 @@ This project is for Mr. Hare’s APCS-A and focuses on using `java.util.Scanner`
 - Not checking `hasNextLine()` or `hasNextInt()` before reading.
 - Incorrectly splitting lines when extracting the final price token.
 
-## Contributing
+## Credit
+This repo template was modified from [CS-Plus-Plus] (https://github.com/cs-plus-plus)
 
-Open an issue or submit a pull request if you find a bug or have a suggestion.
-
-## Contact
-
-Questions? Email Mr. Hare at kevin@csplusplus.com.
